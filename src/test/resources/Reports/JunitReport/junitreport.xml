@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.889">
+<testcase classname="Validate the product results as per ASIN values" name="Validate the Product result as per the ASIN value" time="12.73">
+<system-out><![CDATA[Given User in "https://www.amazon.in/ref=nav_logo" homepage and search "ASIN B0BTYWFXKC" in search box.passed
+When check the search results for given input in search box.................passed
+And user can select first product from the showed results...................passed
+And validate the title of the page after landing the product page...........passed
+And validate the product page was same what user selected in result page....passed
+And validate the given ASIN "B0BTYWFXKC" value is presented in the product page and verify the search asin and showed result value is same.passed
+]]></system-out>
+</testcase>
+</testsuite>
